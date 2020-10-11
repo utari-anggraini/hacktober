@@ -61,7 +61,7 @@ pertama kita menggunakan tools [sherlock](https://github.com/sherlock-project/sh
 >Melihat sebuah komentar di platform "lebih dari tv" mungkin akan mendapatkan flag
 
 kita di beri gambar sebagai berikut:  
-![oseen](/images/diskoctf/340.png)\
+![oseen](/images/diskoctf/340.png)
 kita periksa meta datanya dengan menggunakan exiftool dan di dapatkan informasi sebagai berikut
 ```bash
 [fallcrescent@ccug Downloads]$ exiftool 340.png 
@@ -101,7 +101,6 @@ Pada user Comment terdapat lagu yang di bawakan oleh artis jepang lagu tersebut 
 ### Evil Input
 >Tebak nomor berhadiah flag...
 nc ctf.serangkota.go.id 9971
-
 di berikan sebuah file python berisikan kodingan sebagai berikut :
 ```python
 from __future__ import print_function
